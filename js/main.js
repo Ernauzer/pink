@@ -28,7 +28,7 @@ const selectImg = (e) => {
     let id = target.id;
     let urlStart = "/img/";
     if (id) {
-      colorSelectionBlockImages.src = `${urlStart}${id}.png`;
+      colorSelectionBlockImages.src = `..${urlStart}${id}.png`;
       colorSelectionBlockImages.alt = `${id}`;
     }
     target.classList.add("active");
