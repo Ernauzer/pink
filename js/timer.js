@@ -38,3 +38,4 @@ function initializeClock(id, endtime) {
 }
 let deadline = "Feb 22 2022 00:00:00 GMT+0300";
 initializeClock("action_timer", deadline);
+initializeClock("timer_bottom", deadline);

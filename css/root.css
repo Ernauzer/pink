@@ -1,7 +1,8 @@
 :root {
     --main_bg_color: #f8d603;
     --sec_color_blue: #30163d;
-    --sec_color_pink: #eb2860;  
+    --sec_color_pink: #eb2860;
+    --sec_color_grey: #222222;  
     --color_white: #fff;
     --wrapper_width: 1400px;
     --wrapper_content_width: 1160px;
