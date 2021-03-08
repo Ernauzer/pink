@@ -26,9 +26,9 @@ const selectImg = (e) => {
   });
   if (target.className === "select_color_link") {
     let id = target.id;
-    let urlStart = "/img/";
+    let urlStart = "../img/";
     if (id) {
-      colorSelectionBlockImages.src = `..${urlStart}${id}.png`;
+      colorSelectionBlockImages.src = `${urlStart}${id}.png`;
       colorSelectionBlockImages.alt = `${id}`;
     }
     target.classList.add("active");
